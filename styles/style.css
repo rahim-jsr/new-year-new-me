@@ -79,13 +79,15 @@ nav a:hover {
 
     margin-bottom: 32px;
 }
-.button{
-font-size: 20px;
+
+.button {
+    font-size: 20px;
     font-weight: 600px;
     border-radius: 5px;
     border: none;
     cursor: pointer;
 }
+
 .header-content .button {
     background-color: #F15B22;
     padding: 20px 25px;
@@ -128,97 +130,119 @@ font-size: 20px;
 
 /* my-failure styles end  */
 /* my-plans styles start  */
-.my-plans{
-        text-align: center;
-        margin-bottom: 130px;
+.my-plans {
+    text-align: center;
+    margin-bottom: 130px;
 }
-.my-plans .title{
+
+.my-plans .title {
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 55px;
 }
 
-.plans{
+.plans {
     display: flex;
     justify-content: space-between;
 }
-.plan h3{
+
+.plan h3 {
     font-size: 25px;
     margin-bottom: 16px;
 }
-.plan .description{
+
+.plan .description {
     font-size: 22px;
 }
-.plan img{
+
+.plan img {
     width: 98px;
     height: 98px;
     margin-bottom: 18px;
 }
+
 /* my-plans styles end  */
 /* ads styles start  */
-.ads .banner{
-    background-image: url('../assets/images/watch.png'),url('../assets/images/banner/gradient2.png');
-    background-blend-mode: screen;
-background-repeat: no-repeat;
+.ads .banner {
+    background-image: url('../assets/images/watch.png'), linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    ;
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
     width: 100%;
     padding: 60px 0px 60px 64px;
     border-radius: 8px;
     margin-bottom: 130px;
 }
-.banner .title{
+
+.banner .title {
     font-size: 40px;
     color: white;
 }
-.banner .button,.subscribe-button{
+
+.banner .button,
+.subscribe-button {
     padding: 20px;
     background-color: white;
     color: #F15B22;
 }
+
 /* ads section styles end  */
 /* future section styles start  */
-footer{
-    background-color: #151414;;
+footer {
+    background-color: #151414;
+    ;
 }
-.footer-content{
+
+.footer-content {
     color: white;
     display: flex;
     justify-content: space-evenly;
-    padding:130px 0;
+    padding: 130px 0;
 }
-.footer-content .title{
+
+.footer-content .title {
     font-size: 45px;
     color: white;
 }
+
 .footer-content p {
     margin-bottom: 16px;
     opacity: 0.7;
 }
+
 p.future-description {
-        margin-bottom: 24px;
+    margin-bottom: 24px;
 }
 
-.future{
+.future {
     width: 485px;
 }
-.future a{
+
+.future a {
     text-decoration: none;
     margin-right: 18px;
 }
-.subscribe .title{
+
+.subscribe .title {
     font-size: 25px;
 }
-.subscribe input{
-        font-size: 20px;
-        outline: none;
-        border: none;
-        border-radius: 5px;
-        margin-bottom: 16px;
-        padding: 20px;
+
+.subscribe input {
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    padding: 20px;
 }
-.subscribe input:first-child{
+
+.subscribe input:first-child {
     width: 100%;
 }
-.subscribe-button{
+
+.subscribe-button {
     cursor: pointer;
 }
+
 /* future section styles end  */
