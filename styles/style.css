@@ -39,25 +39,27 @@
     font-size: 65px;
 }
 
-.discription {
+.description {
     font-size: 16px;
-    color: #444343;
+    color: #656464;
+    opacity: 0.7;
 }
 
-.header-content .discription {
+.header-content .description {
 
     margin-bottom: 32px;
 }
-
-.header-content .button {
-    background-color: #F15B22;
-    font-size: 20px;
+.button{
+font-size: 20px;
     font-weight: 600px;
-    padding: 20px 25px;
     border-radius: 5px;
     border: none;
-    color: white;
     cursor: pointer;
+}
+.header-content .button {
+    background-color: #F15B22;
+    padding: 20px 25px;
+    color: white;
 }
 
 /* header styles end  */
@@ -69,14 +71,11 @@
     padding: 131px;
 }
 
-.authore-image {
+.author-image {
     width: 400px;
     text-align: center;
 }
 
-.my-failure-content {
-    width: 416;
-}
 
 .my-failures .title {
     font-size: 40px;
@@ -94,6 +93,54 @@
 .my-failures ul li {
     font-size: 16px;
     color: #444343;
+    opacity: 0.7;
 }
 
-/* my-failure styles start  */
+/* my-failure styles end  */
+/* my-plans styles start  */
+.my-plans{
+        text-align: center;
+        margin-bottom: 130px;
+}
+.my-plans .title{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 55px;
+}
+
+.plans{
+    display: flex;
+    justify-content: space-between;
+}
+.plan h3{
+    font-size: 25px;
+    margin-bottom: 16px;
+}
+.plan .description{
+    font-size: 22px;
+}
+.plan img{
+    width: 98px;
+    height: 98px;
+}
+/* my-plans styles end  */
+/* ads styles start  */
+.ads .banner{
+    background-image: url('../assets/images/watch.png'),url('../assets/images/banner/gradient2.png');
+    background-blend-mode: screen;
+background-repeat: no-repeat;
+    width: 100%;
+    padding: 60px 0px 60px 64px;
+    border-radius: 8px;
+    margin-bottom: 130px;
+}
+.banner .title{
+    font-size: 40px;
+    color: white;
+}
+.banner .button{
+    padding: 20px;
+    background-color: white;
+    color: #F15B22;
+}
+/* ads styles end  */
